@@ -1,8 +1,8 @@
 <template>
 
-    <b-card header= "#Food & Dining">
-      <router-view></router-view>
-    </b-card>
+  <b-card header="#Food & Dining" footer="This is the end">
+    <router-view></router-view>
+  </b-card>
 
 </template>
 
@@ -21,9 +21,8 @@
   .espacio {
     margin-bottom: 30%;
   }
-  .encabezado{
+  .encabezado {
     justify-content: center;
   }
-
 
 </style>

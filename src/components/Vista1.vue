@@ -6,11 +6,12 @@
         <b-media-aside vertical-align="center" class="encabezado">
           <b-img slot="aside"
                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhTUHdaqHYsgTAsJ6jl8MZ_oX-JaPSIUmu6TtRVs6zvrJ_IIupFw"
+
                  alt="placeholder" />
         </b-media-aside>
         <b-media-body>
           <h1 class="mt-0">Media Title</h1>
-          <p>
+          <p >
             Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
             vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis
             in faucibus.
@@ -21,7 +22,6 @@
           </p>
         </b-media-body>
       </b-card>
-
     </b-row>
     <b-row>
       <b-col>

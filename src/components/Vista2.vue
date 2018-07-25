@@ -1,11 +1,80 @@
 <template>
 
+  <b-container>
+    <b-row>
+      <b-col>
+        <b-card>
+          <b-media right-align vertical-align="center">
+            <b-img slot="aside"
+                   src="https://static.wixstatic.com/media/4cc528_4b90d0ee9bcb465db9a4fa334e471098~mv2_d_1280_1280_s_2.jpg_256"
+                   alt="placeholder" />
+            <h5 class="mt-0">Media Title</h5>
+            <p>
+              Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+              vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue
+              felis in faucibus.
+            </p>
+            <p>
+              Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient
+              montes, nascetur ridiculus mus.
+            </p>
+          </b-media>
+        </b-card>
+      </b-col>
+      <b-col>
+        <b-card>
+          <b-media right-align vertical-align="center">
+            <b-img slot="aside"
+                   src=" https://www.readyseteat.com/sites/g/files/qyyrlu501/files/uploadedImages/img_5860_4937.JPEG"
+                   alt="placeholder" />
+            <h5 class="mt-0">Media Title</h5>
+            <p>
+              Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+              vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue
+              felis in faucibus.
+            </p>
+            <p>
+              Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient
+              montes, nascetur ridiculus mus.
+            </p>
+          </b-media>
+        </b-card>
+      </b-col>
+
+    </b-row>
+    <b-row>
+      <b-card>
+        <b-media-aside vertical-align="center" class="encabezado">
+          <b-img slot="aside"
+                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhTUHdaqHYsgTAsJ6jl8MZ_oX-JaPSIUmu6TtRVs6zvrJ_IIupFw"
+
+                 alt="placeholder" />
+        </b-media-aside>
+        <b-media-body>
+          <h1 class="mt-0">Media Title</h1>
+          <p>
+            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+            vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis
+            in faucibus.
+          </p>
+          <p>
+            Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient
+            montes, nascetur ridiculus mus.
+          </p>
+        </b-media-body>
+      </b-card>
+    </b-row>
+
+  </b-container>
+
 </template>
 
 <script>
-export default {
-}
+
+  export default {}
+
 </script>
 
 <style>
+
 </style>
