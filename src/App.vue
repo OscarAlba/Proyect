@@ -1,6 +1,8 @@
 <template>
 
-  <router-view></router-view>
+    <b-card header= "#Food & Dining">
+      <router-view></router-view>
+    </b-card>
 
 </template>
 
@@ -11,20 +13,17 @@
 </script>
 
 <style>
+
   .mobile {
     padding-bottom: 20%;
   }
-  body {
-    background-color: #f3f6fa;
-    margin-bottom: 50%;
-  }
+
   .espacio {
     margin-bottom: 30%;
   }
-  body {
-    margin-bottom: 30%;
-    background-color: #f3f6fa !important;
-    font-family: 'Oxygen', sans-serif !important;
+  .encabezado{
+    justify-content: center;
   }
+
 
 </style>
