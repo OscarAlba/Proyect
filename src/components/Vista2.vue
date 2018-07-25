@@ -40,17 +40,17 @@
           </b-media>
         </b-card>
       </b-col>
-
     </b-row>
-    <b-row>
+    <hr>
+    <b-row sm="6" lg="6" >
       <b-card>
         <b-media-aside vertical-align="center" class="encabezado">
           <b-img slot="aside"
                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhTUHdaqHYsgTAsJ6jl8MZ_oX-JaPSIUmu6TtRVs6zvrJ_IIupFw"
 
-                 alt="placeholder" />
+                 />
         </b-media-aside>
-        <b-media-body>
+        <b-media-body >
           <h1 class="mt-0">Media Title</h1>
           <p>
             Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
@@ -76,5 +76,11 @@
 </script>
 
 <style>
-
+div.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid #73AD21;
+}
 </style>

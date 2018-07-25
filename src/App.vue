@@ -1,8 +1,20 @@
 <template>
 
-  <b-card header="#Food & Dining" footer="This is the end">
+  <div class="container">
+    <nav class="navbar navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Food & Dining</a>
+      <button class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarToggleExternalContent"
+              aria-controls="navbarToggleExternalContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    </nav>
     <router-view></router-view>
-  </b-card>
+  </div>
 
 </template>
 
