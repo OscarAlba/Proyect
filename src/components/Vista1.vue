@@ -27,14 +27,14 @@
     <b-row>
       <b-col cols="6" lg="6">
         <b-card class="text-center">
-          <b-media right-align vertical-align="center">
-            <b-col cols="6" lg="6">
+          <b-media right-align vertical-align="center" class="encabezado">
+            <b-col cols="12" lg="6">
               <b-img slot="aside"
                      src="https://static.wixstatic.com/media/4cc528_4b90d0ee9bcb465db9a4fa334e471098~mv2_d_1280_1280_s_2.jpg_256"
 
                      alt="placeholder" />
             </b-col>
-            <b-col cols="6" lg="6">
+            <b-col cols="12" lg="6">
               <h2 class="mt-0">Media Title</h2>
               <p class="card-text">
                 Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
@@ -48,16 +48,16 @@
             </b-col>
           </b-media>
         </b-card>
-        </b-col>
-        <b-col cols="6" lg="6">
-          <b-card class="text-center">
-            <b-media right-align vertical-align="center">
-              <b-col cols="6" lg="6">
+      </b-col>
+      <b-col cols="6" lg="6">
+        <b-card class="text-center">
+          <b-media right-align vertical-align="center" class="encabezado">
+            <b-col cols="12" lg="6">
               <b-img slot="aside"
                      src=" https://www.readyseteat.com/sites/g/files/qyyrlu501/files/uploadedImages/img_5860_4937.JPEG"
                      alt="placeholder" />
-              </b-col>
-              <b-col cols="6" lg="6">
+            </b-col>
+            <b-col cols="12" lg="6">
               <h2 class="mt-0">Media Title</h2>
               <p>
                 Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
@@ -69,9 +69,9 @@
                 montes, nascetur ridiculus mus.
               </p>
             </b-col>
-            </b-media>
-          </b-card>
-        </b-col>
+          </b-media>
+        </b-card>
+      </b-col>
     </b-row>
   </b-container>
 
