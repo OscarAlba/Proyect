@@ -1,12 +1,13 @@
 <template>
 
-  <b-container>
+  <b-container fluid>
     <b-row>
       <b-col>
-        <b-card>
+        <b-card class="text-center">
           <b-media right-align vertical-align="center">
             <b-img slot="aside"
-                   src="https://static.wixstatic.com/media/4cc528_4b90d0ee9bcb465db9a4fa334e471098~mv2_d_1280_1280_s_2.jpg_256"
+                   src="https://www.feriadelasculturas.com/content/2017/12/arroz-con-leche-256x256.jpg.pagespeed.ce.Y3A7q0N0jj.jpg"
+
                    alt="placeholder" />
             <h5 class="mt-0">Media Title</h5>
             <p>
@@ -22,10 +23,10 @@
         </b-card>
       </b-col>
       <b-col>
-        <b-card>
+        <b-card class="text-center">
           <b-media right-align vertical-align="center">
             <b-img slot="aside"
-                   src=" https://www.readyseteat.com/sites/g/files/qyyrlu501/files/uploadedImages/img_5860_4937.JPEG"
+                   src="https://pbs.twimg.com/profile_images/691360452584976384/xuLID2Rn_400x400.jpg"
                    alt="placeholder" />
             <h5 class="mt-0">Media Title</h5>
             <p>
@@ -42,15 +43,15 @@
       </b-col>
     </b-row>
     <hr>
-    <b-row sm="6" lg="6" >
-      <b-card>
+    <b-row>
+      <b-card class="text-center">
         <b-media-aside vertical-align="center" class="encabezado">
-          <b-img slot="aside"
-                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhTUHdaqHYsgTAsJ6jl8MZ_oX-JaPSIUmu6TtRVs6zvrJ_IIupFw"
-
-                 />
+          <b-img thumbnail
+                 slot="aside"
+                 src="https://www.liffed.com/wp-content/uploads/2017/09/o-KITCHEN-COOKING-facebook-1.jpg"
+                 class="fake" />
         </b-media-aside>
-        <b-media-body >
+        <b-media-body>
           <h1 class="mt-0">Media Title</h1>
           <p>
             Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
@@ -76,11 +77,13 @@
 </script>
 
 <style>
-div.fixed {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    width: 300px;
-    border: 3px solid #73AD21;
-}
+
+  .encabezado {
+    justify-content: center;
+  }
+  img.fake {
+    float: left;
+    width: 100%;
+  }
+
 </style>
